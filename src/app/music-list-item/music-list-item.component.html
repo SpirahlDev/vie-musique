@@ -1,0 +1,20 @@
+<div class="musicListItem" (click)="playSong(song)" id="song-{{song.id}}">
+    <div class="musicOverView">
+        <div class="musicImage">
+            <img src="../../assets/icons/music-icon.png" class="music-default-icon" alt="">
+        </div>
+        <div class="generalInfo">
+            <div class="musicTitle">
+                {{song.title}}
+            </div>
+            <div class="music-item-artist">
+                <p>{{song.artiste}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        Durée <span>{{song.duration}}</span>
+    </div>
+</div>
+

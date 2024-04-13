@@ -1,0 +1,36 @@
+.music-default-icon{
+    width: 30px;
+}
+.musicListItem:active{
+    scale: (1.2);
+    background-color: antiquewhite;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.274);
+}
+.musicListItem{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #060c18;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+.musicOverView{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.music-item-artist,.info{
+    color: rgb(175, 175, 175);
+    font-size: small;
+}
+
+.isPlaying{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,8 @@
+.music-list-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.3s;
+}

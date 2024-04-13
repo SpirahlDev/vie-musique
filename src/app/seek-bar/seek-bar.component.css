@@ -1,0 +1,43 @@
+.seekRoute{
+    background-color: rgb(43, 68, 90);
+    height: 4px;
+    width: 100%;
+}
+
+#seekBar{
+    height: 80px;
+    background-color: black;
+}
+.seekBarContent{
+    height: 95%;
+}
+button{
+    border: none;
+    background-color: unset;
+}
+
+.musicsControl >div{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.musicsControl{
+    justify-content: center;
+    display: flex;
+}
+.musicsControl button>img{
+    height: 40px;
+    cursor: pointer;
+}
+
+.order-control button> img{
+    height: 20px;
+}
+
+.not-visible{
+    display: none;
+}
+
+#play-btn >img,#pause-btn >img{
+    height: 60px;
+}
